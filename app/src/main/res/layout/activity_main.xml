@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="O que sabes sobre informatica?"
+        android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/Linear">
+
+            <LinearLayout
+                style="@style/Linear">
+
+                <TextView
+                    style="@style/Perguntas"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/A1" />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="É a parte lógica do computador."
+                    android:id="@+id/respostaA1"/>
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="É a parte física do computador."
+                    android:id="@+id/respostaB1"/>
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="As duas respostas anteriores estão corretas."
+                    android:id="@+id/respostaC1"/>
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="Nenhuma da respostas anteriores."
+                    android:id="@+id/respostaD1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+               style="@style/Linear">
+
+                <TextView
+                    style="@style/Perguntas"
+                    android:layout_alignParentTop="true"
+                    android:text="2. O que é Software?" />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="É a parte lógica do computador."
+                    android:id="@+id/respostaA2"/>
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="É a parte física do computador." />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="As duas respostas anteriores estão corretas." />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="Nenhuma da respostas anteriores." />
+
+            </LinearLayout>
+            <LinearLayout
+                style="@style/Linear">
+
+                <TextView
+                    style="@style/Perguntas"
+                    android:layout_alignParentTop="true"
+                    android:text="3.Quais dos itens abaixo são considerados exemplos de sistema operacional?" />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="Linux" />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="Windows" />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="As duas respostas anteriores estão corretas."
+                    android:id="@+id/respostaC3"/>
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="Nenhuma da respostas anteriores." />
+                <CheckBox
+                    style="@style/box"
+                    android:text="Google" />
+
+            </LinearLayout>
+            <LinearLayout
+                style="@style/Linear">
+
+                <TextView
+                    style="@style/Perguntas"
+                    android:layout_alignParentTop="true"
+                    android:text="4.O que é a área de trabalho? ?" />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="Barra que fica na parte inferior da tela." />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="Programa que permite o acesso e navegação em páginas de um ou mais sites." />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="É a principal área exibida na tela quando inicia o computador."
+                    android:id="@+id/respostaC4"/>
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="Nenhuma da respostas anteriores." />
+
+            </LinearLayout>
+            <LinearLayout
+                style="@style/Linear">
+
+                <TextView
+                    style="@style/Perguntas"
+                    android:layout_alignParentTop="true"
+                    android:text="5.Quais dos itens abaixo são considerados navegadores de internet?" />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="Internet Explorer" />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="Chrome" />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text=" Opera" />
+                <CheckBox
+                    style="@style/box"
+                    android:text="Todas as respotas anteriores."
+                    android:id="@+id/respostaD5"/>
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="Nenhuma da respostas anteriores." />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/Linear">
+
+                <TextView
+                    style="@style/Perguntas"
+                    android:layout_alignParentTop="true"
+                    android:text="6.Quais dos itens abaixo são exemplos de computadores?" />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="Notebook" />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="PalmTops" />
+                <CheckBox
+                    style="@style/box"
+                    android:text="Todas as respotas anteriores."
+                    android:id="@+id/respostaC6"/>
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="Nenhuma da respostas anteriores." />
+
+            </LinearLayout>
+            <LinearLayout
+                style="@style/Linear">
+
+                <TextView
+                    style="@style/Perguntas"
+                    android:layout_alignParentTop="true"
+                    android:text="7.Para que serve a tecla BARRA DE ESPAÇO?" />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="Ativa ou desativa a exibição de caracteres maiúsculos." />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="Cria espaços em branco entre caracteres"
+                    android:id="@+id/respostaB7"/>
+                <CheckBox
+                    style="@style/box"
+                    android:text="Apaga caracteres á esquerda do cursor" />
+
+                <CheckBox
+                    style="@style/box"
+                    android:text="Cancela comandos e operações." />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/test"
+                android:textColor="#7B1FA2"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enviar"
+                android:layout_gravity="center_horizontal"
+                android:onClick="mostrarresultado"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
